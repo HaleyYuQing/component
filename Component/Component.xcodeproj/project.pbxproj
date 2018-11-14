@@ -16,6 +16,15 @@
 		DA4B980F219C09EE00DC42EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B980E219C09EE00DC42EC /* main.m */; };
 		DA4B9819219C09EE00DC42EC /* ComponentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9818219C09EE00DC42EC /* ComponentTests.m */; };
 		DA4B9824219C09EE00DC42EC /* ComponentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9823219C09EE00DC42EC /* ComponentUITests.m */; };
+		DA4B9835219C0B8300DC42EC /* MapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9834219C0B8300DC42EC /* MapManager.m */; };
+		DA4B9838219C115000DC42EC /* JTProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9837219C114F00DC42EC /* JTProgress.m */; };
+		DA4B9840219C134600DC42EC /* BDRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B983A219C134500DC42EC /* BDRefreshFooter.m */; };
+		DA4B9841219C134600DC42EC /* BDRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B983C219C134600DC42EC /* BDRefreshHeader.m */; };
+		DA4B9842219C134600DC42EC /* BDActivityCircleIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B983E219C134600DC42EC /* BDActivityCircleIndicatorView.m */; };
+		DA4B9849219C143100DC42EC /* BDMBProgressHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9843219C143000DC42EC /* BDMBProgressHUDManager.m */; };
+		DA4B984A219C143100DC42EC /* Money.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9844219C143000DC42EC /* Money.m */; };
+		DA4B984B219C143100DC42EC /* NSData+JsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9846219C143000DC42EC /* NSData+JsonParser.m */; };
+		DA4B984F219C145F00DC42EC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B984E219C145F00DC42EC /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +62,24 @@
 		DA4B981F219C09EE00DC42EC /* ComponentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComponentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4B9823219C09EE00DC42EC /* ComponentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComponentUITests.m; sourceTree = "<group>"; };
 		DA4B9825219C09EE00DC42EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA4B9833219C0B8300DC42EC /* MapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapManager.h; sourceTree = "<group>"; };
+		DA4B9834219C0B8300DC42EC /* MapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapManager.m; sourceTree = "<group>"; };
+		DA4B9836219C114F00DC42EC /* JTProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTProgress.h; sourceTree = "<group>"; };
+		DA4B9837219C114F00DC42EC /* JTProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTProgress.m; sourceTree = "<group>"; };
+		DA4B983A219C134500DC42EC /* BDRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDRefreshFooter.m; sourceTree = "<group>"; };
+		DA4B983B219C134600DC42EC /* BDRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDRefreshHeader.h; sourceTree = "<group>"; };
+		DA4B983C219C134600DC42EC /* BDRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDRefreshHeader.m; sourceTree = "<group>"; };
+		DA4B983D219C134600DC42EC /* BDActivityCircleIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDActivityCircleIndicatorView.h; sourceTree = "<group>"; };
+		DA4B983E219C134600DC42EC /* BDActivityCircleIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDActivityCircleIndicatorView.m; sourceTree = "<group>"; };
+		DA4B983F219C134600DC42EC /* BDRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDRefreshFooter.h; sourceTree = "<group>"; };
+		DA4B9843219C143000DC42EC /* BDMBProgressHUDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDMBProgressHUDManager.m; sourceTree = "<group>"; };
+		DA4B9844219C143000DC42EC /* Money.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Money.m; sourceTree = "<group>"; };
+		DA4B9845219C143000DC42EC /* NSData+JsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JsonParser.h"; sourceTree = "<group>"; };
+		DA4B9846219C143000DC42EC /* NSData+JsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JsonParser.m"; sourceTree = "<group>"; };
+		DA4B9847219C143100DC42EC /* Money.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Money.h; sourceTree = "<group>"; };
+		DA4B9848219C143100DC42EC /* BDMBProgressHUDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDMBProgressHUDManager.h; sourceTree = "<group>"; };
+		DA4B984D219C145F00DC42EC /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		DA4B984E219C145F00DC42EC /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +110,7 @@
 		DA4B97F0219C09EA00DC42EC = {
 			isa = PBXGroup;
 			children = (
+				DA4B984C219C143700DC42EC /* ThirdPart */,
 				DA4B97FB219C09EA00DC42EC /* Component */,
 				DA4B9817219C09EE00DC42EC /* ComponentTests */,
 				DA4B9822219C09EE00DC42EC /* ComponentUITests */,
@@ -103,6 +131,8 @@
 		DA4B97FB219C09EA00DC42EC /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				DA4B9839219C133300DC42EC /* Refresh */,
+				DA4B9832219C0B6D00DC42EC /* Map */,
 				DA4B9831219C0A3500DC42EC /* Common */,
 				DA4B97FC219C09EA00DC42EC /* AppDelegate.h */,
 				DA4B97FD219C09EA00DC42EC /* AppDelegate.m */,
@@ -139,8 +169,47 @@
 		DA4B9831219C0A3500DC42EC /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				DA4B9848219C143100DC42EC /* BDMBProgressHUDManager.h */,
+				DA4B9843219C143000DC42EC /* BDMBProgressHUDManager.m */,
+				DA4B9847219C143100DC42EC /* Money.h */,
+				DA4B9844219C143000DC42EC /* Money.m */,
+				DA4B9845219C143000DC42EC /* NSData+JsonParser.h */,
+				DA4B9846219C143000DC42EC /* NSData+JsonParser.m */,
+				DA4B9836219C114F00DC42EC /* JTProgress.h */,
+				DA4B9837219C114F00DC42EC /* JTProgress.m */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		DA4B9832219C0B6D00DC42EC /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B9833219C0B8300DC42EC /* MapManager.h */,
+				DA4B9834219C0B8300DC42EC /* MapManager.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		DA4B9839219C133300DC42EC /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B983D219C134600DC42EC /* BDActivityCircleIndicatorView.h */,
+				DA4B983E219C134600DC42EC /* BDActivityCircleIndicatorView.m */,
+				DA4B983F219C134600DC42EC /* BDRefreshFooter.h */,
+				DA4B983A219C134500DC42EC /* BDRefreshFooter.m */,
+				DA4B983B219C134600DC42EC /* BDRefreshHeader.h */,
+				DA4B983C219C134600DC42EC /* BDRefreshHeader.m */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		DA4B984C219C143700DC42EC /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B984D219C145F00DC42EC /* MBProgressHUD.h */,
+				DA4B984E219C145F00DC42EC /* MBProgressHUD.m */,
+			);
+			path = ThirdPart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,9 +343,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA4B9801219C09EB00DC42EC /* ViewController.m in Sources */,
+				DA4B984A219C143100DC42EC /* Money.m in Sources */,
+				DA4B9849219C143100DC42EC /* BDMBProgressHUDManager.m in Sources */,
 				DA4B9807219C09EB00DC42EC /* Component.xcdatamodeld in Sources */,
+				DA4B9841219C134600DC42EC /* BDRefreshHeader.m in Sources */,
+				DA4B9840219C134600DC42EC /* BDRefreshFooter.m in Sources */,
 				DA4B980F219C09EE00DC42EC /* main.m in Sources */,
+				DA4B9835219C0B8300DC42EC /* MapManager.m in Sources */,
+				DA4B9842219C134600DC42EC /* BDActivityCircleIndicatorView.m in Sources */,
+				DA4B984F219C145F00DC42EC /* MBProgressHUD.m in Sources */,
+				DA4B9838219C115000DC42EC /* JTProgress.m in Sources */,
 				DA4B97FE219C09EA00DC42EC /* AppDelegate.m in Sources */,
+				DA4B984B219C143100DC42EC /* NSData+JsonParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
