@@ -7,6 +7,7 @@
 //
 
 #import "BDActivityCircleIndicatorView.h"
+#import "UIColor+JT.h"
 
 static NSString* const kRotationAnimation = @"RotationAnimation";
 
@@ -38,7 +39,7 @@ static NSString* const kRotationAnimation = @"RotationAnimation";
     self.animationLayer.anchorPoint = CGPointMake(0, 0.0);
     [self.layer addSublayer:self.animationLayer];
     
-    self.tintColor = UIColorFromRGB(0x666666);
+    self.tintColor = [UIColor colorWithHex:@"666666"];
     
     [self createAnimationLayers];
     [self createStandbyLayers];

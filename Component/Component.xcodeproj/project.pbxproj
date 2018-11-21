@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E96C06DC8732BD2A5D313AC /* libPods-Component.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 638C5D1C7D87AAEF7A563A61 /* libPods-Component.a */; };
 		DA4B97FE219C09EA00DC42EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B97FD219C09EA00DC42EC /* AppDelegate.m */; };
 		DA4B9801219C09EB00DC42EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9800219C09EB00DC42EC /* ViewController.m */; };
 		DA4B9804219C09EB00DC42EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4B9802219C09EB00DC42EC /* Main.storyboard */; };
@@ -24,7 +25,13 @@
 		DA4B9849219C143100DC42EC /* BDMBProgressHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9843219C143000DC42EC /* BDMBProgressHUDManager.m */; };
 		DA4B984A219C143100DC42EC /* Money.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9844219C143000DC42EC /* Money.m */; };
 		DA4B984B219C143100DC42EC /* NSData+JsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9846219C143000DC42EC /* NSData+JsonParser.m */; };
-		DA4B984F219C145F00DC42EC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B984E219C145F00DC42EC /* MBProgressHUD.m */; };
+		DA4B985E219C313C00DC42EC /* UIViewController+JT.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9852219C313A00DC42EC /* UIViewController+JT.m */; };
+		DA4B985F219C313C00DC42EC /* NSObject+Debounce.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9854219C313A00DC42EC /* NSObject+Debounce.m */; };
+		DA4B9860219C313C00DC42EC /* UINavigationItem+JT.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9857219C313B00DC42EC /* UINavigationItem+JT.m */; };
+		DA4B9861219C313C00DC42EC /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9858219C313B00DC42EC /* UITextView+Placeholder.m */; };
+		DA4B9862219C313C00DC42EC /* UIColor+JT.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B9859219C313B00DC42EC /* UIColor+JT.m */; };
+		DA4B9863219C313C00DC42EC /* UIImage+JT.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B985A219C313B00DC42EC /* UIImage+JT.m */; };
+		DA4B9864219C313C00DC42EC /* UIAlertController+JT.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B985C219C313B00DC42EC /* UIAlertController+JT.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		452FE1C1D875B3E1DBD62633 /* libPods-ComponentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ComponentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		638C5D1C7D87AAEF7A563A61 /* libPods-Component.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Component.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BF429FC156ED11ED2F9C27 /* libPods-ComponentUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ComponentUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF76622A43429A49E464949 /* Pods-Component.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Component.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Component/Pods-Component.debug.xcconfig"; sourceTree = "<group>"; };
+		A36F5317F6EA90B4137C56F0 /* Pods-Component.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Component.release.xcconfig"; path = "Pods/Target Support Files/Pods-Component/Pods-Component.release.xcconfig"; sourceTree = "<group>"; };
 		DA4B97F9219C09EA00DC42EC /* Component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Component.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4B97FC219C09EA00DC42EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DA4B97FD219C09EA00DC42EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,8 +90,20 @@
 		DA4B9846219C143000DC42EC /* NSData+JsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JsonParser.m"; sourceTree = "<group>"; };
 		DA4B9847219C143100DC42EC /* Money.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Money.h; sourceTree = "<group>"; };
 		DA4B9848219C143100DC42EC /* BDMBProgressHUDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDMBProgressHUDManager.h; sourceTree = "<group>"; };
-		DA4B984D219C145F00DC42EC /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		DA4B984E219C145F00DC42EC /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		DA4B9850219C313900DC42EC /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		DA4B9851219C313A00DC42EC /* UIAlertController+JT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+JT.h"; sourceTree = "<group>"; };
+		DA4B9852219C313A00DC42EC /* UIViewController+JT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JT.m"; sourceTree = "<group>"; };
+		DA4B9853219C313A00DC42EC /* UIImage+JT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JT.h"; sourceTree = "<group>"; };
+		DA4B9854219C313A00DC42EC /* NSObject+Debounce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Debounce.m"; sourceTree = "<group>"; };
+		DA4B9855219C313A00DC42EC /* NSObject+Debounce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Debounce.h"; sourceTree = "<group>"; };
+		DA4B9856219C313B00DC42EC /* UINavigationItem+JT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+JT.h"; sourceTree = "<group>"; };
+		DA4B9857219C313B00DC42EC /* UINavigationItem+JT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+JT.m"; sourceTree = "<group>"; };
+		DA4B9858219C313B00DC42EC /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		DA4B9859219C313B00DC42EC /* UIColor+JT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JT.m"; sourceTree = "<group>"; };
+		DA4B985A219C313B00DC42EC /* UIImage+JT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JT.m"; sourceTree = "<group>"; };
+		DA4B985B219C313B00DC42EC /* UIColor+JT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JT.h"; sourceTree = "<group>"; };
+		DA4B985C219C313B00DC42EC /* UIAlertController+JT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+JT.m"; sourceTree = "<group>"; };
+		DA4B985D219C313B00DC42EC /* UIViewController+JT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JT.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E96C06DC8732BD2A5D313AC /* libPods-Component.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,14 +132,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A64D8CF9DDF5791EC1561AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				638C5D1C7D87AAEF7A563A61 /* libPods-Component.a */,
+				452FE1C1D875B3E1DBD62633 /* libPods-ComponentTests.a */,
+				96BF429FC156ED11ED2F9C27 /* libPods-ComponentUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA790311C856A97A32D128A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CF76622A43429A49E464949 /* Pods-Component.debug.xcconfig */,
+				A36F5317F6EA90B4137C56F0 /* Pods-Component.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DA4B97F0219C09EA00DC42EC = {
 			isa = PBXGroup;
 			children = (
-				DA4B984C219C143700DC42EC /* ThirdPart */,
 				DA4B97FB219C09EA00DC42EC /* Component */,
 				DA4B9817219C09EE00DC42EC /* ComponentTests */,
 				DA4B9822219C09EE00DC42EC /* ComponentUITests */,
 				DA4B97FA219C09EA00DC42EC /* Products */,
+				AA790311C856A97A32D128A9 /* Pods */,
+				3A64D8CF9DDF5791EC1561AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,6 +214,20 @@
 		DA4B9831219C0A3500DC42EC /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				DA4B9855219C313A00DC42EC /* NSObject+Debounce.h */,
+				DA4B9854219C313A00DC42EC /* NSObject+Debounce.m */,
+				DA4B9851219C313A00DC42EC /* UIAlertController+JT.h */,
+				DA4B985C219C313B00DC42EC /* UIAlertController+JT.m */,
+				DA4B985B219C313B00DC42EC /* UIColor+JT.h */,
+				DA4B9859219C313B00DC42EC /* UIColor+JT.m */,
+				DA4B9853219C313A00DC42EC /* UIImage+JT.h */,
+				DA4B985A219C313B00DC42EC /* UIImage+JT.m */,
+				DA4B9856219C313B00DC42EC /* UINavigationItem+JT.h */,
+				DA4B9857219C313B00DC42EC /* UINavigationItem+JT.m */,
+				DA4B9850219C313900DC42EC /* UITextView+Placeholder.h */,
+				DA4B9858219C313B00DC42EC /* UITextView+Placeholder.m */,
+				DA4B985D219C313B00DC42EC /* UIViewController+JT.h */,
+				DA4B9852219C313A00DC42EC /* UIViewController+JT.m */,
 				DA4B9848219C143100DC42EC /* BDMBProgressHUDManager.h */,
 				DA4B9843219C143000DC42EC /* BDMBProgressHUDManager.m */,
 				DA4B9847219C143100DC42EC /* Money.h */,
@@ -203,15 +262,6 @@
 			path = Refresh;
 			sourceTree = "<group>";
 		};
-		DA4B984C219C143700DC42EC /* ThirdPart */ = {
-			isa = PBXGroup;
-			children = (
-				DA4B984D219C145F00DC42EC /* MBProgressHUD.h */,
-				DA4B984E219C145F00DC42EC /* MBProgressHUD.m */,
-			);
-			path = ThirdPart;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -219,9 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA4B9828219C09EE00DC42EC /* Build configuration list for PBXNativeTarget "Component" */;
 			buildPhases = (
+				AA0D7F2C056A10E262AD1DAC /* [CP] Check Pods Manifest.lock */,
 				DA4B97F5219C09EA00DC42EC /* Sources */,
 				DA4B97F6219C09EA00DC42EC /* Frameworks */,
 				DA4B97F7219C09EA00DC42EC /* Resources */,
+				5A934C4CFA3E202C817F6C82 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -337,24 +389,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A934C4CFA3E202C817F6C82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Component/Pods-Component-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Component/Pods-Component-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA0D7F2C056A10E262AD1DAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Component-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA4B97F5219C09EA00DC42EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA4B985F219C313C00DC42EC /* NSObject+Debounce.m in Sources */,
+				DA4B985E219C313C00DC42EC /* UIViewController+JT.m in Sources */,
 				DA4B9801219C09EB00DC42EC /* ViewController.m in Sources */,
 				DA4B984A219C143100DC42EC /* Money.m in Sources */,
+				DA4B9864219C313C00DC42EC /* UIAlertController+JT.m in Sources */,
 				DA4B9849219C143100DC42EC /* BDMBProgressHUDManager.m in Sources */,
+				DA4B9861219C313C00DC42EC /* UITextView+Placeholder.m in Sources */,
 				DA4B9807219C09EB00DC42EC /* Component.xcdatamodeld in Sources */,
+				DA4B9860219C313C00DC42EC /* UINavigationItem+JT.m in Sources */,
 				DA4B9841219C134600DC42EC /* BDRefreshHeader.m in Sources */,
 				DA4B9840219C134600DC42EC /* BDRefreshFooter.m in Sources */,
 				DA4B980F219C09EE00DC42EC /* main.m in Sources */,
 				DA4B9835219C0B8300DC42EC /* MapManager.m in Sources */,
+				DA4B9863219C313C00DC42EC /* UIImage+JT.m in Sources */,
 				DA4B9842219C134600DC42EC /* BDActivityCircleIndicatorView.m in Sources */,
-				DA4B984F219C145F00DC42EC /* MBProgressHUD.m in Sources */,
 				DA4B9838219C115000DC42EC /* JTProgress.m in Sources */,
 				DA4B97FE219C09EA00DC42EC /* AppDelegate.m in Sources */,
 				DA4B984B219C143100DC42EC /* NSData+JsonParser.m in Sources */,
+				DA4B9862219C313C00DC42EC /* UIColor+JT.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +618,7 @@
 		};
 		DA4B9829219C09EE00DC42EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF76622A43429A49E464949 /* Pods-Component.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -538,6 +636,7 @@
 		};
 		DA4B982A219C09EE00DC42EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A36F5317F6EA90B4137C56F0 /* Pods-Component.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

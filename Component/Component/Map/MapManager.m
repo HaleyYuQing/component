@@ -13,10 +13,15 @@
 #define SCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width
 
 @interface ItemEntity :NSObject<MappableItem>
+@property (nonatomic, copy) NSString *title;
 @property (nonatomic, strong) CLLocation *location;
 @end
 
 @implementation ItemEntity
+
+- (CLLocationCoordinate2D)coordinate {
+    return self.location.coordinate;
+}
 
 @end
 

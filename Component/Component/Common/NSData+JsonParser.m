@@ -7,11 +7,8 @@
 //
 
 #import "NSData+JsonParser.h"
-#import "Constants.h"
-
 
 @implementation NSData (JsonParser)
-
 
 - (NSDictionary *)parsedJSON
 {
@@ -25,7 +22,7 @@
                                                                options:NSJSONReadingMutableContainers | NSJSONReadingMutableLeaves
                                                                  error:error];
     if (*error) {
-        DebugLogDebug(@"error = %@", *error);
+        NSLog(@"error = %@", *error);
         return nil;
     }
     

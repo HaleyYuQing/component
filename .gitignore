@@ -1,0 +1,26 @@
+Component/Pods/Pods.xcodeproj/project.pbxproj
+Component/Pods/Pods.xcodeproj/xcuserdata/yuqinghuang.xcuserdatad/xcschemes/Pods-Component.xcscheme
+Component/Pods/Pods.xcodeproj/xcuserdata/yuqinghuang.xcuserdatad/xcschemes/Pods-ComponentTests.xcscheme
+Component/Pods/Pods.xcodeproj/xcuserdata/yuqinghuang.xcuserdatad/xcschemes/Pods-ComponentUITests.xcscheme
+Component/Pods/Pods.xcodeproj/xcuserdata/yuqinghuang.xcuserdatad/xcschemes/xcschememanagement.plist
+Component/Pods/Target Support Files/Pods-Component/Pods-Component-acknowledgements.markdown
+Component/Pods/Target Support Files/Pods-Component/Pods-Component-acknowledgements.plist
+Component/Pods/Target Support Files/Pods-Component/Pods-Component-dummy.m
+Component/Pods/Target Support Files/Pods-Component/Pods-Component-frameworks.sh
+Component/Pods/Target Support Files/Pods-Component/Pods-Component-resources.sh
+Component/Pods/Target Support Files/Pods-Component/Pods-Component.debug.xcconfig
+Component/Pods/Target Support Files/Pods-Component/Pods-Component.release.xcconfig
+Component/Pods/Target Support Files/Pods-ComponentTests/Pods-ComponentTests-acknowledgements.markdown
+Component/Pods/Target Support Files/Pods-ComponentTests/Pods-ComponentTests-acknowledgements.plist
+Component/Pods/Target Support Files/Pods-ComponentTests/Pods-ComponentTests-dummy.m
+Component/Pods/Target Support Files/Pods-ComponentTests/Pods-ComponentTests-frameworks.sh
+Component/Pods/Target Support Files/Pods-ComponentTests/Pods-ComponentTests-resources.sh
+Component/Pods/Target Support Files/Pods-ComponentTests/Pods-ComponentTests.debug.xcconfig
+Component/Pods/Target Support Files/Pods-ComponentTests/Pods-ComponentTests.release.xcconfig
+Component/Pods/Target Support Files/Pods-ComponentUITests/Pods-ComponentUITests-acknowledgements.markdown
+Component/Pods/Target Support Files/Pods-ComponentUITests/Pods-ComponentUITests-acknowledgements.plist
+Component/Pods/Target Support Files/Pods-ComponentUITests/Pods-ComponentUITests-dummy.m
+Component/Pods/Target Support Files/Pods-ComponentUITests/Pods-ComponentUITests-frameworks.sh
+Component/Pods/Target Support Files/Pods-ComponentUITests/Pods-ComponentUITests-resources.sh
+Component/Pods/Target Support Files/Pods-ComponentUITests/Pods-ComponentUITests.debug.xcconfig
+Component/Pods/Target Support Files/Pods-ComponentUITests/Pods-ComponentUITests.release.xcconfig
